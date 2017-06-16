@@ -1,9 +1,6 @@
-drop database cv_maker
-create database cv_maker
-use cv_maker
 -- MySQL dump 10.13  Distrib 5.7.9, for Win64 (x86_64)
 --
--- Host: localhost    Database: cv_maker
+-- Host: localhost    Database: cv_builder
 -- ------------------------------------------------------
 -- Server version	5.7.12-log
 
@@ -20,15 +17,15 @@ use cv_maker
 
 
 -- -----------------------------------------------------
--- Schema cv_maker
+-- Schema cv_builder
 -- -----------------------------------------------------
-DROP SCHEMA IF EXISTS `cv_maker` ;
+DROP SCHEMA IF EXISTS `cv_builder` ;
 
 -- -----------------------------------------------------
--- Schema cv_maker
+-- Schema cv_builder
 -- -----------------------------------------------------
-CREATE SCHEMA IF NOT EXISTS `cv_maker` DEFAULT CHARACTER SET utf8 ;
-USE `cv_maker` ;
+CREATE SCHEMA IF NOT EXISTS `cv_builder` DEFAULT CHARACTER SET utf8 ;
+USE `cv_builder` ;
 
 
 --
@@ -422,6 +419,3 @@ LOCK TABLES `cv_section` WRITE;
 /*!40000 ALTER TABLE `cv_section` DISABLE KEYS */;
 /*!40000 ALTER TABLE `cv_section` ENABLE KEYS */;
 UNLOCK TABLES;
-
-
-

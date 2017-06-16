@@ -25,7 +25,7 @@ di
     .param().val("localhost")
     .param().val("root")
     .param().val("root")
-    .param().val("cv_maker")
+    .param().val("cv_builder")
     .param().val(mysqlmodel)
     .register('user')
     .instance(user)
