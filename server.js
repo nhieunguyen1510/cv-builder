@@ -162,7 +162,7 @@ app.use(function(req, res, next) {
     res.status(404).render('pages/not_found_404');
 });
 
-http.createServer(app).listen(8080, function() {
+http.createServer(app).listen(process.env.PORT || 8080, function() {
     var port = this.address().port;
     console.log("let's read first");
     console.log("Server is listening at http://localhost:%s", port);
